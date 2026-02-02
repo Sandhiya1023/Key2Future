@@ -1,0 +1,9 @@
+Name,Category,Instructor,Description,Limit,Duration (hours),Duration (minutes),Prerequisites
+Data Structures,Technical,Dr. Johnson,Learn fundamental data structures and algorithms,100,3,30,Basic Programming
+Web Development,Technical,Prof. Smith,Complete web development with HTML CSS JS,150,4,0,HTML Basics
+Machine Learning,Technical,Dr. Anderson,Introduction to ML algorithms and applications,50,5,15,Python Programming
+Digital Marketing,Non-Technical,Ms. Wilson,Learn digital marketing strategies and tools,200,2,45,None
+Project Management,Non-Technical,Mr. Brown,Professional project management methodologies,100,3,0,None
+Database Systems,Technical,Dr. Lee,Relational databases and SQL programming,120,4,30,Basic Programming
+Public Speaking,Non-Technical,Ms. Davis,Improve presentation and communication skills,80,1,30,None
+Cybersecurity,Technical,Prof. Garcia,Network security and ethical hacking basics,75,6,0,Networking Fundamentals
