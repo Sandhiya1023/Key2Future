@@ -19,13 +19,20 @@ def send_email():
         smtp_port = 587
         sender_email = "akashcanand71100@gmail.com"  # Replace with your Gmail
         sender_password = "dvcg qgep atnp nbnj"  # Replace with your Gmail app password
-        recipient_email = "akashcanand71100@gmail.com"
+        recipient_emails = [
+            "onlinecourse0402@gmail.com",
+            #"sandhiyakavin18@gmail.com",
+            #"varshinis270@gmail.com",
+            "akashcanand71100@gmail.com"
+        ]
+
         
         # Create message
         msg = MIMEMultipart()
         msg['From'] = sender_email
-        msg['To'] = recipient_email
-        msg['Subject'] = "Helpdesk Request from Course System"
+        msg['To'] = ", ".join(recipient_emails)
+        msg['Subject'] = "Helpdesk Request from Course System 🆘💬"
+
         
         body = f"""
         New helpdesk message received:
